@@ -96,7 +96,7 @@ h3 {
 .Payment {
     width: 279px;
     height: 50px;
-    margin-top: 40px;
+    margin-top: 24px;
     background-color: #382AE1;
     box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
     border-radius: 11px;
@@ -116,4 +116,111 @@ h4 {
     line-height: 20px;
     color: #717FA6;
     padding: 24px 0 20px;
+}
+
+
+@media screen and (min-width:1440px) {
+
+    body {
+        height: 900px;
+        background-image: url("./assets/pattern-background-desktop.svg");
+    }
+
+    section {
+        width: 450px;
+        height: 697px;
+    }
+
+    .text-container {
+        margin-top: 220px;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 37px;
+        text-align: center;
+        color: #1F2E55;
+    }
+
+    .main-p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #717FA6;
+        width: 354px;
+    }
+
+    .annual {
+        width: 354px;
+        height: 98px;
+    }
+
+    .annual-middle {
+        width: 92px;
+        height: 48px;
+        margin-left: -40px;
+    }
+
+    h2 {
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 21px;
+        color: #1F2E55;
+    }
+
+    .ussd {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #717FA6;
+    }
+
+    h3 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        text-decoration-line: underline;
+        color: #382AE1;
+    }
+
+    h3:hover {
+        cursor: pointer;
+        color: #766CF1;
+    }
+
+    .Payment {
+        width: 354px;
+        height: 50px;
+        margin-top: 32px;
+    }
+
+    .Payment:hover {
+        cursor: pointer;
+        background: #766CF1;
+        box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+        border-radius: 11px;
+    }
+
+    h4 {
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+        padding: 15px 102px;
+    }
+
+    .last-p {
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 20px;
+        color: #717FA6;
+        padding: 32px 0 46px;
+    }
+
+    .last-p:hover {
+        cursor: pointer;
+        color: #1F2E55;
+    }
 }
